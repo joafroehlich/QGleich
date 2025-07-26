@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qiadratische Gleichungen</title>
+  
+
+</head>
+<body style="background-color: #B9D1EA; margin-top: 1em; ">
+       
+
+    <style> 
+         
+        .Text1 {font-size: 1.5em;font-family: Verdana,Sans-serif; margin:0.5em;}
+        .Text2 { font-size: 1em; font-family: Verdana,Sans-serif;margin-top:1em;margin-left:0.5em;}
+        .Text3 { font-size: 0.8em;background-color: white; font-family: Verdana,Sans-serif;margin:0.5em; }
+        
+         .Aufgabe { font-size: 0.9em;  font-family: monospace, monospace;}
+        button {background-color:white;font-size:0.9em; font-family: Verdana, Sans-serif;margin:0.5em; }
+        input {background-color:yellow; }
+    </style>
+    
+	
+    <p class="Text1">Wie löse ich Matheaufgaben?</p>
+		<p class="Text1">Quadratische Gleichungen</p>
+  
+    <p class="Text2"><span style= "background-color:white;">Sie sehen ein gelbes Eingabefeld und die <br>Schalter: Prüfen und Lösung.</span></p>
+		<p class="Text2"><span style= "background-color:white;">Tragen Sie Ihr Ergebnis ein, prüfen Sie es <br> oder starten Sie eine Lösung.</span></p>
+  
+<!--//Aufgabe 49-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 49
+
+(x - 7)(x - 5) = 0 </strong>   x<sub>1</sub> = <input type="text" id="Eintrag49" maxlength="1" size="1" style= background-color:yellow ></input> x<sub>2</sub> = 7<button id="Pruef49" onclick="Aufgabe49()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe49() { 
+                                                
+                          if (Eintrag49.value=="5") {alert("Richtig"); document.getElementById("Pruef49").disabled= true;
+                          }  
+                           
+                          else if (Eintrag49.value!=="5²" && Eintrag49.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag49").value="5"; window.open('QGleich_Aufgabe49.html');           
+                          document.getElementById("Pruef49").disabled= true;}
+                               
+                          else if (Eintrag49.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+                      
+       <!--//Aufgabe 50--> 
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 50</nobr>
+
+(x + 3)(x - 13) = 0</strong>   <button  onclick="window.open('QGleich_Aufgabe50.html');" >Lösung</button></p></pre>
+
+<!--//Aufgabe 51-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 51
+
+(x - √7)(x - √5) = 0</strong>   x<sub>1</sub> = <input type="text" id="Eintrag51" maxlength="2" size="1" style= background-color:yellow ></input> x<sub>2</sub> = √7<button id="Pruef51" onclick="Aufgabe51()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe51() { 
+                                                
+                          if (Eintrag51.value=="√5") {alert("Richtig"); document.getElementById("Pruef51").disabled= true;
+                          }  
+                           
+                          else if (Eintrag51.value!=="√5²" && Eintrag51.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag51").value="√5"; window.open('QGleich_Aufgabe51.html');           
+                          document.getElementById("Pruef51").disabled= true;}
+                               
+                          else if (Eintrag51.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+                      
+       <!--//Aufgabe 52--> 
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 52
+
+(x - a + b)(x - b + c) = 0 </strong>   <button  onclick="window.open('QGleich_Aufgabe52.html');" >Lösung</button></p></pre>
+
+<!--//Aufgabe 54-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 53
+
+(x - 1)² = 1 - x²</strong>   x<sub>1</sub> = <input type="text" id="Eintrag53" maxlength="1" size="1" style= background-color:yellow ></input> x<sub>2</sub> = 1<button id="Pruef53" onclick="Aufgabe53()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe53() { 
+                                                
+                          if (Eintrag53.value=="0") {alert("Richtig"); document.getElementById("Pruef53").disabled= true;
+                          }  
+                           
+                          else if (Eintrag53.value!=="0" && Eintrag53.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag53").value="0"; window.open('QGleich_Aufgabe53.html');           
+                          document.getElementById("Pruef53").disabled= true;}
+                               
+                          else if (Eintrag53.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+                      
+       <!--//Aufgabe 54--> 
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 54
+
+x² + (a - x)² = (a - 2x)²</strong>   <button  onclick="window.open('QGleich_Aufgabe54.html');" >Lösung</button></p></pre>
+
+<!--//Aufgabe 56-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 55
+
+(x - 6)(x - 5) + (x - 7)(x - 4) = 10   </strong>
+x<sub>1</sub> = <input type="text" id="Eintrag55" maxlength="1" size="1" style= background-color:yellow ></input> x<sub>2</sub> = 8<button id="Pruef55" onclick="Aufgabe55()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe55() { 
+                                                
+                          if (Eintrag55.value=="3") {alert("Richtig"); document.getElementById("Pruef55").disabled= true;
+                          }  
+                           
+                          else if (Eintrag55.value!=="3" && Eintrag55.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag55").value="3"; window.open('QGleich_Aufgabe55.html');           
+                          document.getElementById("Pruef55").disabled= true;}
+                               
+                          else if (Eintrag55.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+
+ <!--//Aufgabe 56-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 56
+
+      1 
+2x + --- = 3   <button  onclick="window.open('QGleich_Aufgabe56.html');" >Lösung</button>    
+      x</strong> </p></pre>
+
+<!--//Aufgabe 57-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 57
+
+ x      25 
+--- + ----- = 3      
+ 4      x</strong>
+
+<button id ="Verschieden" onclick="Schalter('Verschieden')" >Hat 2 verschiedene Lösungen</button> <button id ="Identisch" onclick="Schalter('Identisch')" >Hat 2 identische Lösungen</button>
+<button id ="Keine" onclick="Schalter('Keine')" >Hat keine Lösung</button>
+<script>
+function Schalter(buttonId) { 
+                                                
+                          if (buttonId=== "Keine") {alert("Richtig"); document.getElementById("Verschieden").disabled= true;document.getElementById("Identisch").disabled= true;document.getElementById("Keine").disabled= true; 
+                          }  
+                           
+                          else if (buttonId ==="Verschieden" || buttonId ==="Identisch"){alert("Leider falsch. Die Lösung wird angezeigt.");            
+                          document.getElementById("Verschieden").disabled= true;document.getElementById("Identisch").disabled= true;document.getElementById("Keine").disabled= true ; window.open('QGleich_Aufgabe57.html');}
+                        }
+                        </script></p></pre>
+                      
+<!--//Aufgabe 58-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 58</nobr>
+
+ x + 11      2x + 1  
+--------- = ---------   <button  onclick="window.open('QGleich_Aufgabe58.html');" >Lösung</button>        
+  x + 3       x + 5 </strong> 
+
+</p></pre>
+
+<!--//Aufgabe 59-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 59
+
+ 5x - 1     3x - 1     2</strong>                              45                                    
+<strong>-------- + -------- = --- + x - 1</strong>   x<sub>2</sub> = <input type="text" id="Eintrag59" maxlength="1" size="1" style= background-color:yellow ></input> x<sub>1</sub> = ----<button id="Pruef59" onclick="Aufgabe59()">Prüfen</button>  
+    <strong>9          5       x </strong>                             7
+</p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe59() { 
+                                                
+                          if (Eintrag59.value=="2") {alert("Richtig"); document.getElementById("Pruef59").disabled= true;
+                          }  
+                           
+                          else if (Eintrag59.value!=="2" && Eintrag59.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag59").value="2"; window.open('QGleich_Aufgabe59.html');           
+                          document.getElementById("Pruef59").disabled= true;}
+                               
+                          else if (Eintrag59.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+                      
+<!--//Aufgabe 60-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 60
+
+ 5x - 7        14 
+-------- + --------- = x - 1   <button  onclick="window.open('QGleich_Aufgabe60.html');" >Lösung</button>  
+    9        2x - 3  </strong></p></pre>
+
+<!--//Aufgabe 62-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 61
+
+    7         5</strong>                            29
+<strong>-------- + ------- = 12</strong>   x<sub>2</sub> = <input type="text" id="Eintrag61" maxlength="1" size="1" style= background-color:yellow ></input> x<sub>1</sub> = ----<button id="Pruef61" onclick="Aufgabe61()">Prüfen</button>   
+ <strong>2x - 3     x - 1</strong>                          24</p></pre>
+    
+ 
+                      <script>
+                        function Aufgabe61() { 
+                                                
+                          if (Eintrag61.value=="2") {alert("Richtig"); document.getElementById("Pruef61").disabled= true;
+                          }  
+                           
+                          else if (Eintrag61.value!=="2" && Eintrag61.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag61").value="2"; window.open('QGleich_Aufgabe61.html');           
+                          document.getElementById("Pruef61").disabled= true;}
+                               
+                          else if (Eintrag61.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+                      
+<!--//Aufgabe 62-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 62
+
+    4         1         3         2   
+-------- + ------- = ------- + -------   <button  onclick="window.open('QGleich_Aufgabe62.html');" >Lösung</button>    
+  x - 1     x - 4     x - 2     x - 3 </strong></p></pre>
+
+<!--//Aufgabe 63-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 63
+
+x² - 7x + 12 = 0</strong>   x<sub>2</sub> = <input type="text" id="Eintrag63" maxlength="1" size="1" style= background-color:yellow ></input> x<sub>1</sub> = 3<button id="Pruef63" onclick="Aufgabe63()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe63() { 
+                                                
+                          if (Eintrag63.value=="4") {alert("Richtig"); document.getElementById("Pruef63").disabled= true;
+                          }  
+                           
+                          else if (Eintrag63.value!=="4" && Eintrag63.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag63").value="4"; window.open('QGleich_Aufgabe63.html');           
+                          document.getElementById("Pruef63").disabled= true;}
+                               
+                          else if (Eintrag63.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+                      
+<!--//Aufgabe 64-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 64
+
+x² + 13x + 30 = 0</strong>   <button  onclick="window.open('QGleich_Aufgabe64.html');" >Lösung</button></p></pre>
+
+<!--//Aufgabe 65-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 65
+
+x² + 12x + 27 = 0</strong>   x<sub>2</sub> = <input type="text" id="Eintrag65" maxlength="2" size="1" style= background-color:yellow ></input> x<sub>1</sub> = -9<button id="Pruef65" onclick="Aufgabe65()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe65() { 
+                                                
+                          if (Eintrag65.value=="-3") {alert("Richtig"); document.getElementById("Pruef65").disabled= true;
+                          }  
+                           
+                          else if (Eintrag65.value!=="-3" && Eintrag65.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag65").value="-3"; window.open('QGleich_Aufgabe65.html');           
+                          document.getElementById("Pruef65").disabled= true;}
+                               
+                          else if (Eintrag65.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+                      
+<!--//Aufgabe 66-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 66
+
+x² + 2x - 35 = 0</strong>   <button  onclick="window.open('QGleich_Aufgabe66.html');" >Lösung</button></p></pre>
+
+<!--//Aufgabe 67-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 67
+
+2x² - 7x + 3 = 0</strong>   x<sub>2</sub> = <input type="text" id="Eintrag67" maxlength="1" size="1" style= background-color:yellow ></input> x<sub>1</sub> = 0,5<button id="Pruef67" onclick="Aufgabe67()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe67() { 
+                                                
+                          if (Eintrag67.value=="3") {alert("Richtig"); document.getElementById("Pruef67").disabled= true;
+                          }  
+                           
+                          else if (Eintrag67.value!=="3" && Eintrag67.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag67").value="3"; window.open('QGleich_Aufgabe67.html');           
+                          document.getElementById("Pruef67").disabled= true;}
+                               
+                          else if (Eintrag67.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+                      
+<!--//Aufgabe 68-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 68
+
+x² + bx - 2b² = 0</strong>   <button  onclick="window.open('QGleich_Aufgabe68.html');" >Lösung</button></p></pre>
+
+<!--//Aufgabe 69-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 69
+
+x⁴ - 13x² + 36 = 0</strong>   
+x<sub>3</sub> = <input type="text" id="Eintrag69" maxlength="1" size="2" style= background-color:yellow ></input> x<sub>1</sub> = 3, x<sub>2</sub> = -2, x<sub>4</sub> = -3<button id="Pruef69" onclick="Aufgabe69()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe69() { 
+                                                
+                          if (Eintrag69.value=="2") {alert("Richtig"); document.getElementById("Pruef69").disabled= true;
+                          }  
+                           
+                          else if (Eintrag69.value!=="2" && Eintrag69.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag69").value="2"; window.open('QGleich_Aufgabe69.html');           
+                          document.getElementById("Pruef69").disabled= true;}
+                               
+                          else if (Eintrag69.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+                      
+<!--//Aufgabe 70-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 70
+
+x⁴ - 21x² - 100 = 0</strong>   <button  onclick="window.open('QGleich_Aufgabe70.html');" >Lösung</button></p></pre>
+
+<!--//Aufgabe 71-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 71
+
+(x² - 10)(x² - 3) = 78</strong>   x<sub>2</sub> = <input type="text" id="Eintrag71" maxlength="1" size="1" style= background-color:yellow ></input> x<sub>2</sub> = -4<button id="Pruef71" onclick="Aufgabe71()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe71() { 
+                                                
+                          if (Eintrag71.value=="4") {alert("Richtig"); document.getElementById("Pruef71").disabled= true;
+                          }  
+                           
+                          else if (Eintrag71.value!=="4" && Eintrag71.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag71").value="4"; window.open('QGleich_Aufgabe71.html');           
+                          document.getElementById("Pruef71").disabled= true;}
+                               
+                          else if (Eintrag71.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+                      
+<!--//Aufgabe 72-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 72</strong></p><nobr>
+<math mathsize="1.em"><msqrt><mrow><mn>3</mn><mi>x</mi><mo>-</mo><mn>5</mn></mrow></msqrt><mo>+</mo><mn>4</mn><mo>=</mo><mn>5</mn></math> 
+<button  onclick="window.open('QGleich_Aufgabe72.html');" >Lösung</button></nobr></pre>
+
+<!--//Aufgabe 73-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 73</strong></p><nobr>
+
+<math mathsize="1.em"><msqrt><mrow><mi>x</mi><mo>-</mo><mn>5</mn></mrow></msqrt><mo>+</mo><msqrt><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></msqrt><mo>=</mo><mn>1</mn><mo>&#xA0;</mo><mo>&#xA0;</mo><mo>&#xA0;</mo><mi>x</mi><mo>=</mo></math>   <input type="text" id="Eintrag73" maxlength="2" size="1" style= background-color:yellow ></input><button id="Pruef73" onclick="Aufgabe73()">Prüfen</button></p></nobr></pre>  
+
+
+    
+ 
+                      <script>
+                        function Aufgabe73() { 
+                                                
+                          if (Eintrag73.value=="-1") {alert("Richtig"); document.getElementById("Pruef73").disabled= true;
+                          }  
+                           
+                          else if (Eintrag73.value!=="-1" && Eintrag73.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag73").value="-1"; window.open('QGleich_Aufgabe73.html');           
+                          document.getElementById("Pruef73").disabled= true;}
+                               
+                          else if (Eintrag73.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+                      
+<!--//Aufgabe 74-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 74</strong>
+
+<math mathsize="1.em"><msqrt><mrow><mi>x</mi><mo>+</mo><mn>6</mn></mrow></msqrt><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><msqrt><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></msqrt><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><msqrt><mrow><mi>x</mi><mo>-</mo><mn>9</mn></mrow></msqrt></math>  <button  onclick="window.open('QGleich_Aufgabe74.html');" >Lösung</button></p></pre> 
+$\sqrt{ax² - 2ax + 13} = \sqrt{\left(a + 2\right)² - ax + 1}$
+
+
+<!--//Aufgabe 75-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 75</strong></p><nobr>
+<math mathsize="1.em"><msqrt><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></msqrt><mo>+</mo><msqrt><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>2</mn><mi>x</mi><mo>-</mo><mn>8</mn></mrow></msqrt><mo>=</mo><mfrac><mn>15</mn><msqrt><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></msqrt></mfrac><mo>&#xA0;</mo><mo>&#xA0;</mo><mo>&#xA0;</mo></math><br>
+<p class="Aufgabe">x = <input type="text" id="Eintrag75" maxlength="2" size="1" style= background-color:yellow ></input><button id="Pruef75" onclick="Aufgabe73()">Prüfen</button></p></pre>  
+
+    
+ 
+                      <script>
+                        function Aufgabe75() { 
+                                                
+                          if (Eintrag75.value=="6") {alert("Richtig"); document.getElementById("Pruef75").disabled= true;
+                          }  
+                           
+                          else if (Eintrag75.value!=="6" && Eintrag75.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag75").value="6"; window.open('QGleich_Aufgabe75.html');           
+                          document.getElementById("Pruef75").disabled= true;}
+                               
+                          else if (Eintrag75.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+                      
+<!--//Aufgabe 76-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 76</nobr>
+
+Für welche Zahlen für p hat die Gleichung   
+x² + px + 7 = 0 genau eine Lösung?</strong>   <button  onclick="window.open('QGleich_Aufgabe76.html');" >Lösung</button></p></pre>
+
+<!--//Aufgabe 77-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 77
+
+Für welche Zahlen für a hat die Gleichung
+x² - 8ax + 7a² = 0
+b₁) genau zwei Lösungen   
+b₂) eine Lösung       
+b₃) keine Lösung?</strong>  <button id ="Jedes" onclick="Schalter('Jedes')" >Für jedes a ungeich 0</button> 
+                            <button id ="kein" onclick="Schalter('kein')" >Für kein a</button></p><nobr>
+
+<script>
+function Schalter(buttonId) { 
+                                                
+                          if (buttonId=== "Jedes") {alert("Richtig"); document.getElementById("Jedes").disabled= true;document.getElementById("kein").disabled= true; 
+                          }  
+                           
+                          else if (buttonId =="kein" ){alert("Leider falsch. Die Lösung wird angezeigt.");            
+                          document.getElementById("Jedes").disabled= true;document.getElementById("kein").disabled= true ; window.open('QGleich_Aufgabe77.html');}
+                        }
+                        </script></nobr></pre>
+<!--//Aufgabe 78-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 78
+
+               1                       2  
+Von x² + px - --- = 0, ist die Lösung --- bekannt.
+               2                       3
+                                         
+Wie groß ist p?</strong>   <button  onclick="window.open('QGleich_Aufgabe78.html');" >Lösung</button></p></pre>
+
+<!--//Aufgabe 80-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 79
+
+Für welche Zahlen a hat die Gleichung 
+x² + 0,8x + a = 0 zwei Lösungen? </strong>
+Für a < <input type="text" id="Eintrag79" maxlength="4" size="1" style= background-color:yellow ></input> <button id="Pruef79" onclick="Aufgabe79()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe79() { 
+                                                
+                          if (Eintrag79.value=="0,16") {alert("Richtig"); document.getElementById("Pruef79").disabled= true;
+                          }  
+                           
+                          else if (Eintrag79.value!=="0,16" && Eintrag79.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag79").value="0,16"; window.open('QGleich_Aufgabe79.html');           
+                          document.getElementById("Pruef79").disabled= true;}
+                               
+                          else if (Eintrag79.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+                      
+<!--//Aufgabe 80-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 80
+
+Für welche Zahlen für k hat die Gleichung
+4x² - 20kx - 11k² = 0 genau eine Lösung?</strong> 
+<button  onclick="window.open('QGleich_Aufgabe80.html');" >Lösung</button></p></pre>
+
+<!--//Aufgabe 81-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 81
+
+Für welche Zahlen für a hat die Gleichung                                                                             
+ax² + 2x - 5 = 0 keine Lösung?  </strong>
+           1
+Für a < -------
+         <input type="text" id="Eintrag81" maxlength="1" size="1" style= background-color:yellow ></input> <button id="Pruef81" onclick="Aufgabe81()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe81() { 
+                                                
+                          if (Eintrag81.value=="5") {alert("Richtig"); document.getElementById("Pruef81").disabled= true;
+                          }  
+                           
+                          else if (Eintrag81.value!=="5" && Eintrag81.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag81").value="5"; window.open('QGleich_Aufgabe81.html');           
+                          document.getElementById("Pruef81").disabled= true;}
+                               
+                          else if (Eintrag81.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+                      
+<!--//Aufgabe 82-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 82
+
+Für welche Zahlen für a hat die Gleichung
+3(x + 3)² - 2(x + 7)(x - 2) - a = 0 genau eine Lösung?</strong>   
+<button  onclick="window.open('QGleich_Aufgabe82.html');" >Lösung</button></p></pre>
+
+<!--//Aufgabe 83-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 83
+
+Für welche Zahlen für a hat die Gleichung
+<img src="Aufgabe83.jpg">
+die Lösung x = 3?</strong>  
+Für a<sub>1</sub> = <input type="text" id="Eintrag83" maxlength="2" size="1" style= background-color:yellow ></input> a<sub>2</sub> = 4<button id="Pruef83" onclick="Aufgabe83()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe83() { 
+                                                
+                          if (Eintrag83.value=="-2") {alert("Richtig"); document.getElementById("Pruef83").disabled= true;
+                          }  
+                           
+                          else if (Eintrag83.value!=="-2" && Eintrag83.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag83").value="-2"; window.open('QGleich_Aufgabe83.html');           
+                          document.getElementById("Pruef83").disabled= true;}
+                               
+                          else if (Eintrag83.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+                      
+
+                
+          <button type="button" class ="Aufgabe" onclick="window.open('index.html'); window.close('QGleich5.html');">zurück...</button>    
+	                  
+        <script>
+            document.body.addEventListener("input", function(inputEvent) {
+              const eingabeFeld = inputEvent.target;
+              if (eingabeFeld.maxLength > 0 && eingabeFeld.value.length > eingabeFeld.maxLength) {
+                eingabeFeld.value = eingabeFeld.value.substr(0, eingabeFeld.maxLength);
+              }
+            })
+          </script><br>
+        
+         
+
+        </body></html>
+
+                      
+                    

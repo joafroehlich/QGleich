@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qiadratische Gleichungen</title>
+  
+
+</head>
+<body style="background-color: #B9D1EA; margin-top: 1em; ">
+       
+
+    <style> 
+         
+        .Text1 {font-size: 1.5em;font-family: Verdana,Sans-serif; margin:0.5em;}
+        .Text2 { font-size: 1em; font-family: Verdana,Sans-serif;margin-top:1em;margin-left:0.5em;}
+        .Text3 { font-size: 0.8em;background-color: white; font-family: Verdana,Sans-serif;margin:0.5em; }
+        
+         .Aufgabe { font-size: 0.9em;  font-family: monospace, monospace;}
+        button {background-color:white;font-size:0.9em; font-family: Verdana, Sans-serif;margin:0.5em; }
+        input {background-color:yellow; }
+    </style>
+    
+	
+    <p class="Text1">Wie löse ich Matheaufgaben?</p>
+		<p class="Text1">Quadratische Gleichungen</p>
+  
+    <p class="Text2"><span style= "background-color:white;">Sie sehen ein gelbes Eingabefeld und die <br>Schalter: Prüfen und Lösung.</span></p>
+		<p class="Text2"><span style= "background-color:white;">Tragen Sie Ihr Ergebnis ein, prüfen Sie es <br> oder starten Sie eine Lösung.</span></p>
+  
+                      
+<!--//Aufgabe 84-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 84</nobr>
+
+Die Summe aus einer positiven Zahl und ihrem Kehrwert 
+ergibt das Zehnfache der Zahl.                                                         
+Wie heißt die Zahl?</strong>   <button  onclick="window.open('QGleich_Aufgabe84.html');" >Lösung</button></p></pre>
+
+<!--//Aufgabe 85-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 85
+
+Die Summe aus dem Quadrat einer positiven Zahl und ihrem
+Dreizehnfachen ergibt 888. Wie heißt die Zahl?   </strong>
+Sie heißt <input type="text" id="Eintrag85" maxlength="2" size="1" style= background-color:yellow ></input> <button id="Pruef85" onclick="Aufgabe85()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe85() { 
+                                                
+                          if (Eintrag85.value=="24") {alert("Richtig"); document.getElementById("Pruef85").disabled= true;
+                          }  
+                           
+                          else if (Eintrag85.value!=="24" && Eintrag85.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag85").value="24"; window.open('QGleich_Aufgabe85.html');           
+                          document.getElementById("Pruef85").disabled= true;}
+                               
+                          else if (Eintrag85.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+                      
+<!--//Aufgabe 86-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 86</nobr>
+
+Die Zahl 100 ist so in 2 Zahlen zu zerlegen, 
+dass deren Quadrate zusammen 5169 ergeben.
+Wie heißen die beiden Zahlen?</strong>   <button  onclick="window.open('QGleich_Aufgabe86.html');" >Lösung</button></p></pre>   
+
+<!--//Aufgabe 87-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 87
+
+Die Summe zweier Zahlen ergibt 65.
+Die Summe ihrer Quadratwurzeln ergibt 11.
+Wie lauten die beiden Zahlen?  </strong>
+Kleinere = <input type="text" id="Eintrag87" maxlength="2" size="1" style= background-color:yellow ></input> und 49<button id="Pruef87" onclick="Aufgabe87()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe87() { 
+                                                
+                          if (Eintrag87.value=="16") {alert("Richtig"); document.getElementById("Pruef87").disabled= true;
+                          }  
+                           
+                          else if (Eintrag87.value!=="16" && Eintrag87.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag87").value="16"; window.open('QGleich_Aufgabe87.html');           
+                          document.getElementById("Pruef87").disabled= true;}
+                               
+                          else if (Eintrag87.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+                      
+<!--//Aufgabe 88-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 88
+
+Multipliziert man eine Zahl mit der um 6 kleineren, 
+dannerhält man 216.
+Um welche positive Zahl handelt es sich? </strong>   <button  onclick="window.open('QGleich_Aufgabe88.html');" >Lösung</button></p></pre>   
+
+<!--//Aufgabe 89-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 89
+
+Eine positive Zahl ist um 9 größer als eine andere. 
+Multipliziert man sie, so erhält man 1170.
+Um welche Zahl handelt es sich? </strong>
+Es ist die Zahl <input type="text" id="Eintrag89" maxlength="2" size="1" style= background-color:yellow ></input> <button id="Pruef89" onclick="Aufgabe89()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe89() { 
+                                                
+                          if (Eintrag89.value=="39") {alert("Richtig"); document.getElementById("Pruef89").disabled= true;
+                          }  
+                           
+                          else if (Eintrag89.value!=="39" && Eintrag89.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag89").value="39"; window.open('QGleich_Aufgabe89.html');           
+                          document.getElementById("Pruef89").disabled= true;}
+                               
+                          else if (Eintrag89.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+                      
+<!--//Aufgabe 90-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 90
+
+Addiert man 5 zu einer Zahl und zieht 5 von ihr ab, 
+dann ergibt das Produkt aus der Summe und der Differenz 96.
+Wie groß ist die Zahl?</strong>   <button  onclick="window.open('QGleich_Aufgabe90.html');" >Lösung</button></p></pre>   
+
+<!--//Aufgabe 91-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 91
+
+Um welche Zahl müssen die Zahlen 19 und 17 vergrößert
+werden, damit ihr Produkt um 76 größer wird?   </strong>
+Um die <input type="text" id="Eintrag91" maxlength="1" size="1" style= background-color:yellow ></input> <button id="Pruef91" onclick="Aufgabe91()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe91() { 
+                                                
+                          if (Eintrag91.value=="2") {alert("Richtig"); document.getElementById("Pruef91").disabled= true;
+                          }  
+                           
+                          else if (Eintrag91.value!=="2" && Eintrag91.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag91").value="2"; window.open('QGleich_Aufgabe91.html');           
+                          document.getElementById("Pruef91").disabled= true;}
+                               
+                          else if (Eintrag91.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+                      
+<!--//Aufgabe 92-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 92
+
+Um welche Zahl müssen die Zahlen 19 und 17 verkleinert 
+werden, damit ihr Produkt um 76 größer wird?</strong>   <button  onclick="window.open('QGleich_Aufgabe92.html');" >Lösung</button></p></pre>   
+
+<!--//Aufgabe 93-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 93
+
+Ein Rechteck ist doppelt so groß wie ein Quadrat.
+Die eine Seite des Rechtecks ist so groß wie eine 
+Quadratseite, die andere ist 12 cm lang.
+Wie groß ist eine Quadratseite?</strong>
+Sie ist <input type="text" id="Eintrag93" maxlength="1" size="1" style= background-color:yellow ></input> cm groß.<button id="Pruef93" onclick="Aufgabe93()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe93() { 
+                                                
+                          if (Eintrag93.value=="6") {alert("Richtig"); document.getElementById("Pruef93").disabled= true;
+                          }  
+                           
+                          else if (Eintrag93.value!=="6" && Eintrag93.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag93").value="6"; window.open('QGleich_Aufgabe93.html');           
+                          document.getElementById("Pruef93").disabled= true;}
+                               
+                          else if (Eintrag93.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+
+<!--//Aufgabe 94-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 94
+
+Verkürzt man die Seiten eines Quadrates um 3 cm, 
+dann hat es eine Fläche von 2209 cm². 
+Wie lang ist eine Seite des ursprünglichen Quadrates?</strong>   
+<button  onclick="window.open('QGleich_Aufgabe94.html');" >Lösung</button></p></pre>   
+
+<!--//Aufgabe 95-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 95
+
+Verlängert man die Seiten eines Quadrates um 7 cm, 
+dannhat es eine Fläche von 2209 cm². 
+Wie lang ist eine Seite des ursprünglichen Quadrates? </strong>
+Sie ist <input type="text" id="Eintrag95" maxlength="2" size="1" style= background-color:yellow ></input> cm lang.<button id="Pruef95" onclick="Aufgabe95()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe95() { 
+                                                
+                          if (Eintrag95.value=="40") {alert("Richtig"); document.getElementById("Pruef95").disabled= true;
+                          }  
+                           
+                          else if (Eintrag95.value!=="40" && Eintrag95.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag95").value="40"; window.open('QGleich_Aufgabe95.html');           
+                          document.getElementById("Pruef95").disabled= true;}
+                               
+                          else if (Eintrag95.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>  
+
+<!--//Aufgabe 96-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 96
+
+Ein Rechteck hat einen Umfang von 70 m und eine 
+Fläche von 286 m². Wie lang sind die Rechteckseiten?    </strong>   
+<button  onclick="window.open('QGleich_Aufgabe96.html');" >Lösung</button></p></pre>   
+
+<!--//Aufgabe 97-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 97
+
+Ein Grundstück hat eine Fläche von 69 000 m². 
+Es ist 70 m länger als breit. 
+Wie lang und wie breit ist das Grundstück?</strong>
+Es ist <input type="text" id="Eintrag97" maxlength="3" size="1" style= background-color:yellow ></input> m lang.<button id="Pruef97" onclick="Aufgabe97()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe97() { 
+                                                
+                          if (Eintrag97.value=="300") {alert("Richtig"); document.getElementById("Pruef97").disabled= true;
+                          }  
+                           
+                          else if (Eintrag97.value!=="300" && Eintrag97.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag97").value="300"; window.open('QGleich_Aufgabe97.html');           
+                          document.getElementById("Pruef97").disabled= true;}
+                               
+                          else if (Eintrag97.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+                      
+<!--//Aufgabe 98-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 98
+
+Eine Küche ist dreimal so lang wie breit. Sie kann mit 108 
+ganzen quadratischen Platten ausgelegt werden. Die Platten
+haben eine Kantenlänge von 50 cm. 
+Wie lang und wie breit ist die Küche?</strong>   <button  onclick="window.open('QGleich_Aufgabe98.html');" >Lösung</button></p></pre>   
+
+<!--//Aufgabe 99-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 99
+
+Das Rechteck ist in ein Quadrat (rechts oben) und
+3 Rechtecke aufgeteilt. Die rote Fläche beträgt 7 m².
+Wie groß ist eine Quadratseite? </strong>
+<img src="Aufgabe99.jpg">
+  <input type="text" id="Eintrag99" maxlength="1" size="1" style= background-color:yellow ></input> m oder 2,5 m.<button id="Pruef99" onclick="Aufgabe99()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe99() { 
+                                                
+                          if (Eintrag99.value=="1") {alert("Richtig"); document.getElementById("Pruef99").disabled= true;
+                          }  
+                           
+                          else if (Eintrag99.value!=="1" && Eintrag99.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag99").value="1"; window.open('QGleich_Aufgabe99.html');           
+                          document.getElementById("Pruef99").disabled= true;}
+                               
+                          else if (Eintrag99.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+                      
+<!--//Aufgabe 100-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 100
+
+Die Fläche des blauen Quadrates ist gleich der Fläche 
+des roten Rechtecks. Wie groß ist eine Quadratseite?</strong>   
+<img src="Aufgabe100.jpg">
+<button  onclick="window.open('QGleich_Aufgabe100.html');" >Lösung</button></p></pre>   
+
+<!--//Aufgabe 101-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 101
+
+Vergrößert man eine Würfelseite um 1 cm, 
+so vergrößert sich sein Volumen um 127 cm². 
+Wie groß ist die ursprüngliche Seitenlänge?</strong>   
+Sie beträgt <input type="text" id="Eintrag101" maxlength="1" size="1" style= background-color:yellow ></input> cm.<button id="Pruef101" onclick="Aufgabe101()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe101() { 
+                                                
+                          if (Eintrag101.value=="6") {alert("Richtig"); document.getElementById("Pruef101").disabled= true;
+                          }  
+                           
+                          else if (Eintrag101.value!=="6" && Eintrag101.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag101").value="6"; window.open('QGleich_Aufgabe101.html');           
+                          document.getElementById("Pruef101").disabled= true;}
+                               
+                          else if (Eintrag101.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+                      
+<!--//Aufgabe 102-->                     
+                      
+    <pre><p class="Aufgabe"><strong>Aufgabe 102
+
+Ein Rechteck ist  6 cm lang und 5 cm breit.
+Verkürzt man jede Seite um denselben Betrag,
+so ist die Fläche des neuen Rechtecks 2/3 der alten Fläche.
+Wie groß ist die Verkürzung? </strong>   <button  onclick="window.open('QGleich_Aufgabe102.html');" >Lösung</button></p></pre>   
+
+<!--//Aufgabe 103-->
+
+  <pre><p class ="Aufgabe" ><strong>Aufgabe 103
+
+Ein Rechteck ist 6 cm lang und 5 cm breit. 
+Die Seitenlängen sind so zu ändern, dass bei gleich 
+bleibender Fläche der Umfang um 1 cm größer wird. 
+Wie lang sind die neuen Seiten?</strong>   
+Größere 7,5 cm und <input type="text" id="Eintrag103" maxlength="1" size="1" style= background-color:yellow ></input> cm.<button id="Pruef103" onclick="Aufgabe103()">Prüfen</button></p></pre> 
+    
+ 
+                      <script>
+                        function Aufgabe103() { 
+                                                
+                          if (Eintrag103.value=="4") {alert("Richtig"); document.getElementById("Pruef103").disabled= true;
+                          }  
+                           
+                          else if (Eintrag103.value!=="4" && Eintrag103.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag103").value="4"; window.open('QGleich_Aufgabe103.html');           
+                          document.getElementById("Pruef103").disabled= true;}
+                               
+                          else if (Eintrag103.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>                                          
+
+
+                      <button type="button" class ="Aufgabe" onclick="window.open('index.html'); window.close('QGleich6.html');">zurück...</button>    
+
+          
+        <script>
+            document.body.addEventListener("input", function(inputEvent) {
+              const eingabeFeld = inputEvent.target;
+              if (eingabeFeld.maxLength > 0 && eingabeFeld.value.length > eingabeFeld.maxLength) {
+                eingabeFeld.value = eingabeFeld.value.substr(0, eingabeFeld.maxLength);
+              }
+            })
+          </script>
+                      
+        
+         
+
+        </body></html>
+
+                      
+                    
