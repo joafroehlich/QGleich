@@ -91,16 +91,18 @@ ax² = b</strong>   <button  onclick="window.open('QGleich_Aufgabe5.html');">Lö
   <pre><p class ="Aufgabe" ><strong>Aufgabe 6
 
  ax²      c 
------- = ---</strong>   x<sub>1,2</sub> = ± <input type="text" id="Eintrag6" maxlength="3" size="1" style= background-color:yellow ></input> <button id="Pruef6" onclick="Aufgabe6()">Prüfen</button> 
-  <strong>b       d </strong></p></pre>
+------ = ---</strong>   
+  <strong>b       d </strong>
+
+x<sub>1,2</sub> = ± <img src="Aufgabe6a.jpg" align="middle"> <input type="text" id="Eintrag6" maxlength="2" size="1" style= background-color:yellow ></input> <button id="Pruef6" onclick="Aufgabe6()">Prüfen</button> </p></pre>
  
                       <script>
                         function Aufgabe6() { 
                                                 
-                          if (Eintrag6.value=="a*d") {alert("Richtig"); document.getElementById("Pruef6").disabled= true;
+                          if (Eintrag6.value=="ad") {alert("Richtig"); document.getElementById("Pruef6").disabled= true;
                           }  
                            
-                          else if (Eintrag6.value!=="a*d" && Eintrag6.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag6").value="a*d"; window.open('QGleich_Aufgabe6.html');           
+                          else if (Eintrag6.value!=="ad" && Eintrag6.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag6").value="ad"; window.open('QGleich_Aufgabe6.html');           
                           document.getElementById("Pruef6").disabled= true;}
                                
                           else if (Eintrag6.value=="") {alert("Bitte eine Eingabe machen")}}
@@ -143,15 +145,16 @@ ax² - b = c</strong>   <button  onclick="window.open('QGleich_Aufgabe7.html');"
 
   <pre><p class ="Aufgabe" ><strong>Aufgabe 10
 
-ax² - b = cx² + d</strong>   x<sub>1,2</sub> = ± <input type="text" id="Eintrag10" maxlength="3" size="1" style= background-color:yellow > </input> <button id="Pruef10" onclick="Aufgabe10()">Prüfen</button></p></pre>
- 
+ax² - b = cx² + d</strong>   
+
+x<sub>1,2</sub> = ± <img src="Aufgabe10a.jpg" align="middle"> <input type="text" id="Eintrag10" maxlength="2" size="1" style= background-color:yellow ></input> <button id="Pruef10" onclick="Aufgabe10()">Prüfen</button> </p></pre> 
                       <script>
                         function Aufgabe10() { 
                                                 
                           if (Eintrag10.value=="a-c") {alert("Richtig"); document.getElementById("Pruef10").disabled= true;
                           }  
                            
-                          else if (Eintrag10.value!=="a-c" && Eintrag10.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag10").value="a-c"; window.open('QGleich_Aufgabe10.html');           
+                          else if (Eintrag10.value!=="a-c" && Eintrag10.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag10").value="a-c"; window.open("QGleich_Aufgabe10.html")         
                           document.getElementById("Pruef10").disabled= true;}
                                
                           else if (Eintrag10.value=="") {alert("Bitte eine Eingabe machen")}}
