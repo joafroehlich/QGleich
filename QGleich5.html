@@ -337,7 +337,7 @@ x⁴ - 21x² - 100 = 0</strong>   <button  onclick="window.open('QGleich_Aufgabe
 
   <pre><p class ="Aufgabe" ><strong>Aufgabe 71
 
-(x² - 10)(x² - 3) = 78</strong>   x<sub>2</sub> = <input type="text" id="Eintrag71" maxlength="1" size="1" style= background-color:yellow ></input> x<sub>2</sub> = -4<button id="Pruef71" onclick="Aufgabe71()">Prüfen</button></p></pre> 
+(x² - 10)(x² - 3) = 78</strong>   x<sub>1</sub> = <input type="text" id="Eintrag71" maxlength="1" size="1" style= background-color:yellow ></input> x<sub>2</sub> = -4<button id="Pruef71" onclick="Aufgabe71()">Prüfen</button></p></pre> 
     
  
                       <script>
@@ -385,15 +385,15 @@ x⁴ - 21x² - 100 = 0</strong>   <button  onclick="window.open('QGleich_Aufgabe
                       
     <pre><p class="Aufgabe"><strong>Aufgabe 74</strong>
 
-<math mathsize="1.em"><msqrt><mrow><mi>x</mi><mo>+</mo><mn>6</mn></mrow></msqrt><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><msqrt><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></msqrt><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><msqrt><mrow><mi>x</mi><mo>-</mo><mn>9</mn></mrow></msqrt></math>  <button  onclick="window.open('QGleich_Aufgabe74.html');" >Lösung</button></p></pre> 
-$\sqrt{ax² - 2ax + 13} = \sqrt{\left(a + 2\right)² - ax + 1}$
+<math mathsize="1em"><msqrt><mrow><mi>x</mi><mo>+</mo><mn>6</mn></mrow></msqrt><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><msqrt><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></msqrt><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><msqrt><mrow><mi>x</mi><mo>-</mo><mn>9</mn></mrow></msqrt></math>  <button  onclick="window.open('QGleich_Aufgabe74.html');" >Lösung</button></p></pre> 
+
 
 
 <!--//Aufgabe 75-->
 
   <pre><p class ="Aufgabe" ><strong>Aufgabe 75</strong></p><nobr>
 <math mathsize="1.em"><msqrt><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></msqrt><mo>+</mo><msqrt><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>2</mn><mi>x</mi><mo>-</mo><mn>8</mn></mrow></msqrt><mo>=</mo><mfrac><mn>15</mn><msqrt><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></msqrt></mfrac><mo>&#xA0;</mo><mo>&#xA0;</mo><mo>&#xA0;</mo></math><br>
-<p class="Aufgabe">x = <input type="text" id="Eintrag75" maxlength="2" size="1" style= background-color:yellow ></input><button id="Pruef75" onclick="Aufgabe73()">Prüfen</button></p></pre>  
+<p class="Aufgabe">x = <input type="text" id="Eintrag75" maxlength="2" size="1" style= background-color:yellow ></input><button id="Pruef75" onclick="Aufgabe75()">Prüfen</button></p></pre>  
 
     
  
@@ -425,16 +425,16 @@ Für welche Zahlen für a hat die Gleichung
 x² - 8ax + 7a² = 0
 b₁) genau zwei Lösungen   
 b₂) eine Lösung       
-b₃) keine Lösung?</strong>  <button id ="Jedes" onclick="Schalter('Jedes')" >Für jedes a ungeich 0</button> 
-                            <button id ="kein" onclick="Schalter('kein')" >Für kein a</button></p><nobr>
+b₃) keine Lösung?</strong>  <button id ="Jedes" onclick="Schalter1('Jedes')" >Für jedes a ungeich 0</button> 
+                            <button id ="kein" onclick="Schalter1('kein')" >Für kein a</button></p><nobr>
 
 <script>
-function Schalter(buttonId) { 
+function Schalter1(buttonId) { 
                                                 
-                          if (buttonId=== "Jedes") {alert("Richtig"); document.getElementById("Jedes").disabled= true;document.getElementById("kein").disabled= true; 
+                          if (buttonId=== "kein") {alert("Richtig"); document.getElementById("Jedes").disabled= true;document.getElementById("kein").disabled= true; 
                           }  
                            
-                          else if (buttonId =="kein" ){alert("Leider falsch. Die Lösung wird angezeigt.");            
+                          else if (buttonId =="Jedes" ){alert("Leider falsch. Die Lösung wird angezeigt.");            
                           document.getElementById("Jedes").disabled= true;document.getElementById("kein").disabled= true ; window.open('QGleich_Aufgabe77.html');}
                         }
                         </script></nobr></pre>
@@ -515,8 +515,8 @@ Für welche Zahlen für a hat die Gleichung
   <pre><p class ="Aufgabe" ><strong>Aufgabe 83
 
 Für welche Zahlen für a hat die Gleichung
-<img src="Aufgabe83.jpg">
-die Lösung x = 3?</strong>  
+<math mathsize="1.2em"><msqrt><mrow><mi>a</mi><mi>x</mi><mo>&#xb2;</mo><mo>-</mo><mn>2</mn><mi>a</mi><mi>x</mi><mo>+</mo><mn>13</mn></mrow></msqrt><mo>=</mo><msqrt><msup scriptlevel="1"><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>2</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>&#x2212;</mo><mi>a</mi><mi>x</mi><mo>+</mo><mn>1</mn></msqrt></math> 
+die Lösung x = 3?</strong> 
 Für a<sub>1</sub> = <input type="text" id="Eintrag83" maxlength="2" size="1" style= background-color:yellow ></input> a<sub>2</sub> = 4<button id="Pruef83" onclick="Aufgabe83()">Prüfen</button></p></pre> 
     
  
