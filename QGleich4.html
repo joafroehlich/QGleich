@@ -8,7 +8,7 @@
   
 
 </head>
-<body style="background-color: #B9D1EA; margin-top: 1em; ">
+<body style="background-color: white; margin-top: 1em; ">
        
 
     <style> 
@@ -18,7 +18,7 @@
         .Text3 { font-size: 0.8em;background-color: white; font-family: Verdana,Sans-serif;margin:0.5em; }
         
          .Aufgabe { font-size: 0.9em;  font-family: monospace, monospace;}
-        button {background-color:white;font-size:0.9em; font-family: Verdana, Sans-serif;margin:0.5em; }
+        button {font-size:0.9em; font-family: Verdana, Sans-serif;margin:0.5em; }
         input {background-color:yellow; }
     </style>
     
@@ -31,9 +31,11 @@
   
 <!--//Aufgabe 43-->
 
-  <pre><p class ="Aufgabe" ><strong>Aufgabe 43
+  <pre><p class ="Aufgabe" >Aufgabe 43
 
-x² + 6x - 27 = 0 </strong>   x<sub>1</sub> = <input type="text" id="Eintrag43" maxlength="2" size="1" style= background-color:yellow ></input> x<sub>2</sub> = 3<button id="Pruef43" onclick="Aufgabe43()">Prüfen</button></p></pre> 
+x<sup>2</sup> + 6x - 27 = 0    
+
+x<sub>1</sub> = <input type="text" id="Eintrag43" maxlength="2" size="1" style= background-color:yellow ></input> x<sub>2</sub> = 3<button id="Pruef43" onclick="Aufgabe43()">Prüfen</button></p></pre> 
     
  
                       <script>
@@ -42,7 +44,7 @@ x² + 6x - 27 = 0 </strong>   x<sub>1</sub> = <input type="text" id="Eintrag43" 
                           if (Eintrag43.value=="-9") {alert("Richtig"); document.getElementById("Pruef43").disabled= true;
                           }  
                            
-                          else if (Eintrag43.value!=="-9²" && Eintrag43.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag43").value="-9"; window.open('QGleich_Aufgabe43.html');           
+                          else if (Eintrag43.value!=="-9<sup>2</sup>" && Eintrag43.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag43").value="-9"; window.open('QGleich_Aufgabe43.html');           
                           document.getElementById("Pruef43").disabled= true;}
                                
                           else if (Eintrag43.value=="") {alert("Bitte eine Eingabe machen")}}
@@ -51,15 +53,17 @@ x² + 6x - 27 = 0 </strong>   x<sub>1</sub> = <input type="text" id="Eintrag43" 
                       
        <!--//Aufgabe 44--> 
                       
-    <pre><p class="Aufgabe"><strong>Aufgabe 44
+    <pre><p class="Aufgabe">Aufgabe 44
 
-x² - 6x + 8 = 0 </strong>   <button  onclick="window.open('QGleich_Aufgabe44.html');" >Lösung</button></p></pre>
+x<sup>2</sup> - 6x + 8 = 0    <button  onclick="window.open('QGleich_Aufgabe44.html');" >Lösung</button></p></pre>
 
 <!--//Aufgabe 46-->
 
-  <pre><p class ="Aufgabe" ><strong>Aufgabe 45
+  <pre><p class ="Aufgabe" >Aufgabe 45
 
-x² - 2x - 24 = 0</strong>   x<sub>1</sub> = <input type="text" id="Eintrag45" maxlength="2" size="1" style= background-color:yellow ></input> x<sub>2</sub> = 6<button id="Pruef45" onclick="Aufgabe45()">Prüfen</button></p></pre> 
+x<sup>2</sup> - 2x - 24 = 0   
+
+x<sub>1</sub> = <input type="text" id="Eintrag45" maxlength="2" size="1" style= background-color:yellow ></input> x<sub>2</sub> = 6<button id="Pruef45" onclick="Aufgabe45()">Prüfen</button></p></pre> 
     
  
                       <script>
@@ -68,7 +72,7 @@ x² - 2x - 24 = 0</strong>   x<sub>1</sub> = <input type="text" id="Eintrag45" m
                           if (Eintrag45.value=="-4") {alert("Richtig"); document.getElementById("Pruef45").disabled= true;
                           }  
                            
-                          else if (Eintrag45.value!=="-4²" && Eintrag45.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag45").value="-4"; window.open('QGleich_Aufgabe45.html');           
+                          else if (Eintrag45.value!=="-4<sup>2</sup>" && Eintrag45.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag45").value="-4"; window.open('QGleich_Aufgabe45.html');           
                           document.getElementById("Pruef45").disabled= true;}
                                
                           else if (Eintrag45.value=="") {alert("Bitte eine Eingabe machen")}}
@@ -77,15 +81,17 @@ x² - 2x - 24 = 0</strong>   x<sub>1</sub> = <input type="text" id="Eintrag45" m
                       
        <!--//Aufgabe 46--> 
                       
-    <pre><p class="Aufgabe"><strong>Aufgabe 46
+    <pre><p class="Aufgabe">Aufgabe 46
 
-2x² + 2x - 14 = 0 </strong>   <button  onclick="window.open('QGleich_Aufgabe46.html');" >Lösung</button></p></pre>
+2x<sup>2</sup> + 2x - 14 = 0    <button  onclick="window.open('QGleich_Aufgabe46.html');" >Lösung</button></p></pre>
 
 <!--//Aufgabe 47-->
 
-  <pre><p class ="Aufgabe" ><strong>Aufgabe 47
+  <pre><p class ="Aufgabe" >Aufgabe 47
 
-3x² +18x - 168 = 0</strong>   x<sub>1</sub> = <input type="text" id="Eintrag47" maxlength="5" size="2" style= background-color:yellow ></input> x<sub>2</sub> = 5,1 <button id="Pruef47" onclick="Aufgabe47()">Prüfen</button></p></pre> 
+3x<sup>2</sup> +18x - 168 = 0   
+
+x<sub>1</sub> = <input type="text" id="Eintrag47" maxlength="5" size="2" style= background-color:yellow ></input> x<sub>2</sub> = 5,1 <button id="Pruef47" onclick="Aufgabe47()">Prüfen</button></p></pre> 
     
  
                       <script>
@@ -103,12 +109,12 @@ x² - 2x - 24 = 0</strong>   x<sub>1</sub> = <input type="text" id="Eintrag45" m
                       
        <!--//Aufgabe 48--> 
                       
-    <pre><p class="Aufgabe"><strong>Aufgabe 48
+    <pre><p class="Aufgabe">Aufgabe 48
 
-7x² + 7x - 140 = 0</strong>   <button  onclick="window.open('QGleich_Aufgabe48.html');" >Lösung</button></p></pre>
+7x<sup>2</sup> + 7x - 140 = 0   <button  onclick="window.open('QGleich_Aufgabe48.html');" >Lösung</button></p></pre>
 
               
-          <button type="button" class ="Aufgabe" onclick="window.open('index.html'); window.close('LinGleich4.html');">zurück...</button>    
+          <a href= "index.html" ><p class="Text2" > <span style= >zurück</span></p></a>    
 	              
         <script>
             document.body.addEventListener("input", function(inputEvent) {
