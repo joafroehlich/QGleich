@@ -198,9 +198,9 @@ x<sup>2</sup> - 7x + 11,5 = 0   <button  onclick="window.open('QGleich_Aufgabe27
 
 x<sup>2</sup> - 2x + 2 = 0 
 
-<button id ="Verschieden" onclick="Schalter('Verschieden')" >Hat 2 verschiedene Lösungen</button> 
-<button id ="Identisch" onclick="Schalter('Identisch')" >Hat 2 identische Lösungen</button>
-<button id ="Keine" onclick="Schalter('Keine')" >Hat keine Lösung</button>
+<button id ="Verschieden" onclick="Schalter('Verschieden')">Hat 2 verschiedene Lösungen</button> 
+<button id ="Identisch" onclick="Schalter('Identisch')">Hat 2 identische Lösungen</button>
+<button id ="Keine" onclick="Schalter('Keine')">Hat keine Lösung</button>
 
 <script>
 function Schalter(buttonId) { 
@@ -272,8 +272,7 @@ x<sup>2</sup> + 2ax = b   <button  onclick="window.open('QGleich_Aufgabe32.html'
   <pre><p class ="Aufgabe" >Aufgabe 33
 
       x             
-x<sup>2</sup> - --- = 8          
-      3               
+x<sup>2</sup> - --- = 8
       
      <input type="text" id="Eintrag33" maxlength="1" size="2" style= background-color:yellow >      
 x<sub>1</sub> = ------   </input> x<sub>2</sub> = 3 <button id="Pruef33" onclick="Aufgabe33()">Prüfen</button>      
@@ -306,11 +305,11 @@ x<sup>2</sup> + --- = 50   <button  onclick="window.open('QGleich_Aufgabe34.html
   <pre><p class ="Aufgabe" >Aufgabe 35
 
       116         7           
-x<sup>2</sup> + ----- = 12 ---- x    
+x<sup>2</sup> + ----- = 12 ---- x
        3         12             
        
-      <input type="text" id="Eintrag35" maxlength="2" size="1" style= background-color:yellow ></input>         29       
-x<sub>1</sub> = -------   x<sub>2</sub> = ----<button id="Pruef35" onclick="Aufgabe35()">Prüfen</button>       
+      <input type="text" id="Eintrag35" maxlength="2" size="1" style= background-color:yellow ></input>         29
+x<sub>1</sub> = -------   x<sub>2</sub> = ----<button id="Pruef35" onclick="Aufgabe35()">Prüfen</button>
         3            4</p></b></pre>
 
  
@@ -320,7 +319,7 @@ x<sub>1</sub> = -------   x<sub>2</sub> = ----<button id="Pruef35" onclick="Aufg
                           if (Eintrag35.value=="16") {alert("Richtig"); document.getElementById("Pruef35").disabled= true;
                           }  
                            
-                          else if (Eintrag35.value!=="16" && Eintrag35.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag35").value="16"; window.open('QGleich_Aufgabe35.html');           
+                          else if (Eintrag35.value!=="16" && Eintrag35.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag35").value="16"; window.open('QGleich_Aufgabe35.html');
                           document.getElementById("Pruef35").disabled= true;}
                                
                           else if (Eintrag35.value=="") {alert("Bitte eine Eingabe machen")}}
