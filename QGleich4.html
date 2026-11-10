@@ -15,27 +15,76 @@
          
         .Text1 {font-size: 1.5em;font-family: Verdana,Sans-serif; margin:0.5em;}
         .Text2 { font-size: 1em; font-family: Verdana,Sans-serif;margin-top:1em;margin-left:0.5em;}
-        .Text3 { font-size: 0.8em;background-color: white; font-family: Verdana,Sans-serif;margin:0.5em; }
+        .Text3 { font-size: 0.6em; font-family: monospace,monospace;margin:0.5em; }
         
-         .Aufgabe { font-size: 0.9em;  font-family: monospace, monospace;}
-        button {font-size:0.9em; font-family: Verdana, Sans-serif;margin:0.5em; }
+        body { margin: 0; font-family: Verdana,Sans-serif; font-size: 1.05rem; line-height: 1.2; background: #fff; }  
+       main { max-width: 40rem; margin: 0 auto; padding: 1rem; }
+h1 { font-size: 1.5rem; }
+h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
+.check input { font-size: 1.05rem; padding: 0.2rem; width: 4rem; }
+.check button { font-size: 1.05rem; padding: 0.2rem 0.6rem; } 
+.br-mobil {
+            display: none;}
+.br-desk {
+            display: block;}
+.desktop-break {
+            display: block;
+                 content: "";   
+                 height: 0.8em;  }
+.desktop-plus {
+            display: inline-block;}
+.mobile-break {
+            display: none; }            
+.mobile-plus {
+            display: none;}  
+
+@media screen and (max-width: 576px) {
+
+            .br-mobil {
+                display: block;}
+
+            .br-desk {
+                display: none;} 
+
+            .desktop-break {
+                display: none; }    
+                
+            .desktop-plus {
+                display: none; }
+
+            .mobile-break {
+                 display: block;
+                 content: "";   
+                 height: 0.8em;  }                
+                          
+            .mobile-plus {
+                 display: inline-block; }
+                           
+                }
+
         input {background-color:yellow; }
+        
     </style>
-    
+
+    <main>
 	
     <p class="Text1">Wie löse ich Matheaufgaben?</p>
 		<p class="Text1">Quadratische Gleichungen</p>
   
     <p class="Text2"><span style= "background-color:white;">Sie sehen ein gelbes Eingabefeld und die <br>Schalter: Prüfen und Lösung.</span></p>
 		<p class="Text2"><span style= "background-color:white;">Tragen Sie Ihr Ergebnis ein, prüfen Sie es <br> oder starten Sie eine Lösung.</span></p>
-  
+
+<div class="check">
+
 <!--//Aufgabe 43-->
 
-  <pre><b><p class ="Aufgabe" >Aufgabe 43
+  <h2>Aufgabe 43</h2><p>
 
-x<sup>2</sup> + 6x - 27 = 0    
+x<sup>2</sup> + 6x - 27 = 0</p>    
 
-x<sub>1</sub> = <input type="text" id="Eintrag43" maxlength="2" size="1" style= background-color:yellow ></input> x<sub>2</sub> = 3<button id="Pruef43" onclick="Aufgabe43()">Prüfen</button></p></pre> 
+x<sub>1</sub> = <input type="text" id="Eintrag43" maxlength="2"  ></input> <button id="Pruef43" onclick="Aufgabe43()">Prüfen</button></p>
+
+x<sub>2</sub> = 3</p>
     
  
                       <script>
@@ -53,17 +102,21 @@ x<sub>1</sub> = <input type="text" id="Eintrag43" maxlength="2" size="1" style= 
                       
        <!--//Aufgabe 44--> 
                       
-    <pre><p class="Aufgabe">Aufgabe 44
+   <h2>Aufgabe 44</h2><p>
 
-x<sup>2</sup> - 6x + 8 = 0    <button  onclick="window.open('QGleich_Aufgabe44.html');" >Lösung</button></p></pre>
+x<sup>2</sup> - 6x + 8 = 0</p>
 
-<!--//Aufgabe 46-->
+<button  onclick="window.open('QGleich_Aufgabe44.html');" >Lösung</button></p>
 
-  <pre><p class ="Aufgabe" >Aufgabe 45
+<!--//Aufgabe 45-->
 
-x<sup>2</sup> - 2x - 24 = 0   
+  <h2>Aufgabe 45</h2><p>
 
-x<sub>1</sub> = <input type="text" id="Eintrag45" maxlength="2" size="1" style= background-color:yellow ></input> x<sub>2</sub> = 6<button id="Pruef45" onclick="Aufgabe45()">Prüfen</button></p></pre> 
+x<sup>2</sup> - 2x - 24 = 0</p>   
+
+x<sub>1</sub> = <input type="text" id="Eintrag45" maxlength="2"  ></input> <button id="Pruef45" onclick="Aufgabe45()">Prüfen</button></p>
+
+x<sub>2</sub> = 6</p>
     
  
                       <script>
@@ -81,17 +134,21 @@ x<sub>1</sub> = <input type="text" id="Eintrag45" maxlength="2" size="1" style= 
                       
        <!--//Aufgabe 46--> 
                       
-    <pre><p class="Aufgabe">Aufgabe 46
+   <h2>Aufgabe 46</h2><p>
 
-2x<sup>2</sup> + 2x - 14 = 0    <button  onclick="window.open('QGleich_Aufgabe46.html');" >Lösung</button></p></pre>
+2x<sup>2</sup> + 2x - 14 = 0</p>
+
+<button  onclick="window.open('QGleich_Aufgabe46.html');" >Lösung</button></p>
 
 <!--//Aufgabe 47-->
 
-  <pre><p class ="Aufgabe" >Aufgabe 47
+  <h2>Aufgabe 47</h2><p>
 
-3x<sup>2</sup> +18x - 168 = 0   
+3x<sup>2</sup> +18x - 168 = 0</p>   
 
-x<sub>1</sub> = <input type="text" id="Eintrag47" maxlength="5" size="2" style= background-color:yellow ></input> x<sub>2</sub> = 5,1 <button id="Pruef47" onclick="Aufgabe47()">Prüfen</button></p></pre> 
+x<sub>1</sub> = <input type="text" id="Eintrag47" maxlength="5"  ></input>  <button id="Pruef47" onclick="Aufgabe47()">Prüfen</button></p>
+
+x<sub>2</sub> = 5,1</p> 
     
  
                       <script>
@@ -109,12 +166,14 @@ x<sub>1</sub> = <input type="text" id="Eintrag47" maxlength="5" size="2" style= 
                       
        <!--//Aufgabe 48--> 
                       
-    <pre><p class="Aufgabe">Aufgabe 48
+    <h2>Aufgabe 48</h2><p>
 
-7x<sup>2</sup> + 7x - 140 = 0   <button  onclick="window.open('QGleich_Aufgabe48.html');" >Lösung</button></p></b></pre>
+7x<sup>2</sup> + 7x - 140 = 0</p>
+
+<button  onclick="window.open('QGleich_Aufgabe48.html');" >Lösung</button></p>
 
               
-          <a href= "index.html" ><p class="Text2" > <span style= >zurück</span></p></a>    
+          <a href= "index.html" ><p class="Text2" > <span style= >zurück</span></p></a></div></main>    
 	              
         <script>
             document.body.addEventListener("input", function(inputEvent) {
